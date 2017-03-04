@@ -16,8 +16,7 @@ class R3BPaddleTamexMappedData : public TObject
     R3BPaddleTamexMappedData();
 
     /* Standard Constructor */
-    R3BPaddleTamexMappedData(Int_t planeId,
-                             Int_t barId);
+    R3BPaddleTamexMappedData(Int_t planeId, Int_t barId);
 
     // Destructor
     virtual ~R3BPaddleTamexMappedData()
